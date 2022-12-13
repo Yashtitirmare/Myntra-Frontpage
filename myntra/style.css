@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body
+{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.left img
+{
+    width: 32px;
+    height: 23px;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container
+{
+    padding: 0 5vw;
+}
+.search
+{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid rgb(245, 241, 241);
+    background: #fafafa;
+    border-radius: 5px;
+}
+nav
+{
+    font-size: 12px;
+    font-weight: bolder;
+    padding-top: 14px;
+}
+nav ul li 
+{
+ list-style: none;
+ padding: 0 12px;
+}
+.section1
+{
+    background-color: #fff;
+    cursor: pointer;
+}
+/* slidshow_container css*/
+.slideshow-container {
+    max-width: 100%;
+    margin-top: 6%;
+}
+/* The dots/bullets/indicators */
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+/*section1*/
+.itemImg
+{
+    width: 12.39vw;
+}
+/*section2*/
+.item1Img
+{
+    margin: 0 3px;
+    width: 12.08vw;
+}
+/*section3*/
+.item2Img
+{
+    margin: 0 2px;
+    width: 13.9vw;
+
+}
+/*section 4*/
+.section4
+{
+    background-color: #f7f5f5;
+    cursor: pointer;
+}
+.item3Img
+{
+    width: 12.3vw;
+}
+/*section5*/
+.section5
+{
+    cursor: pointer;
+}
+.item4Img
+{
+    width: 50%;
+}
+.section6
+{
+    cursor: pointer;
+}
+.item6Img
+{
+    width: 20vw;
+}
+/*title css*/
+.heading-container
+{
+    background-color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.title
+{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 60px 0 60px 30px;
+    max-height: 5em;
+    font-weight: bolder;
+}
+.rightbox
+    {
+        display: flex;
+        margin: 12px;
+    }
+
+/*media query*/
+
+@media (max-width: 900px)
+{
+    nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+    header{
+        height: 122px;
+        position: sticky;
+    }
+    .container{
+        padding: 0 2vw;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }   
+    .right
+    {
+        flex-direction: column;
+        
+    } 
+    .rightbox
+    {
+        display: flex;
+        margin: 12px;
+    }
+}
+
